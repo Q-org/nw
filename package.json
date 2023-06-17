@@ -5,6 +5,7 @@
   "private": true,
   "devDependencies": {
     "@nrwl/next": "^16.3.2",
+    "@nx-tools/nx-prisma": "^5.0.1",
     "@nx/cypress": "16.3.2",
     "@nx/eslint-plugin": "16.3.2",
     "@nx/jest": "16.3.2",
@@ -14,6 +15,7 @@
     "@swc/plugin-styled-components": "^1.5.67",
     "@testing-library/react": "14.0.0",
     "@types/jest": "^29.4.0",
+    "@types/next": "^9.0.0",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
@@ -37,6 +39,7 @@
     "nx": "16.3.2",
     "nx-cloud": "latest",
     "prettier": "^2.6.2",
+    "prisma": "^4.5.0",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "~5.0.2"
@@ -46,6 +49,7 @@
   ],
   "dependencies": {
     "@nx/next": "16.3.2",
+    "@prisma/client": "^4.5.0",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
