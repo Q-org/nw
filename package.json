@@ -2,10 +2,9 @@
   "name": "nw",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nrwl/next": "^16.3.2",
     "nx": "16.3.2",
     "nx-cloud": "latest"
   },
